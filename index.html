@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Mandyta Books</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Romance</a>
+                    </li>
+                    <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Poesia</a>
+                    </li>
+                    <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Drama</a>
+                    </li>
+                    <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Comédia romântica</a>
+                    </li>
+                    <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Sáficos</a>
+                    </li>
+                  </ul>
+                <img src="minhas img/logoab.svg.svg" alt="Logo da Mandyta Books" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Mandyta</b>Books </h1>
+            </div>
+
+            <ul class="opções">
+              <input type="checkbox" id="opções-menu" class="opções__botão">
+              <label for="opções-menu"></label>
+              <li class="opções__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Romance</a>
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Poesia</a>
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Drama</a>
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Comédia romântica</a>
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Sáficos</a>
+              </li>
+            </ul>
+
+              <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+              <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
+            </ul>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favotitos" class="container__imagem container__imagem-transparente"></a>
+                <a href="#"><img src="img/Compras.svg" alt="Carrrinho de compras" class="container__imagem"></a>
+                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
+
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe o que quer ler?</h2>
+            <p class="banner__texto">Encontre sua próxima leitura de acordo com o gosto da Mandyta!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+          </section>
+        
+          <section class="carrossel">
+            <h2 class="carrossel__titulo">Os mais divos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="minhas img/oamor.svg.svg"
+                    alt="Livro O Amor Não É Óbvio da Elayne Baeta"></div>
+                <div class="swiper-slide"><img src="minhas img/coisasobvias.svg.svg"
+                    alt="Livro Coisas Óbvias Sobre O Amor da Elayne Baeta"></div>
+                <div class="swiper-slide"><img src="minhas img/oxebaby.svg.svg" alt="Livro Oxe Baby da Elayne Baeta">
+                </div>
+                <div class="swiper-slide">
+                  <img src="minhas img/setemaridos.svg.svg" alt="Livro Os Sete Maridos de Evelyn Hugo da Taylor Jenkins Reid" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="minhas img/daisy.svg.svg" alt="Livro Daisy Jones & The Six da Taylor Jenkins Reid" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="minhas img/malibu.svg.svg" alt="Livro Malibu Renasce da Taylor Jenkins Reid" />
+                </div>
+              </div>
+        
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+        
+            </div>
+        
+            <div class="card">
+              <div class="card__descrição">
+                <div class="descrição">
+                  <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                  <h2 class="descrição__titulo-livro">Os Dois Morrem No Final</h2>
+                  <p class="descrição__texto">
+                    Livro muito triste LGBTQIAPN+ do Adam Silvera.
+                  </p>
+                </div>
+                <img src="minhas img/osdoismorrem.png" class="descrição__imagem" />
+              </div>
+              <div class="card__botões">
+                <ul class="botões">
+                  <li class="botões__item">
+                    <img src="img/Favoritos.svg" alt="Favoritar livro" />
+                  </li>
+                  <li class="botões__item">
+                    <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+                  </li>
+                </ul>
+                <a href="#" class="botões__ancora">Saiba mais</a>
+              </div>
+            </div>
+        
+          </section>
+        
+          <section class=”carrossel”>
+            <h2 class="carrossel__titulo">Mais vendidos</h2>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+        
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="minhas img/oamor.svg.svg"
+                    alt="Livro O Amor Não É Óbvio da Elayne Baeta"></div>
+                <div class="swiper-slide"><img src="minhas img/coisasobvias.svg.svg" alt="Livro Coisas Óbvias Sobre O Amor da Elayne Baeta">
+                </div>
+                <div class="swiper-slide"><img src="minhas img/oxebaby.svg.svg" alt="Oxe Baby da Elayne Baeta">
+                </div>
+                <div class="swiper-slide"><img src="minhas img/setemaridos.svg.svg" alt="Livro Os Sete Maridos de Evelyn Hugo da Taylor Jenkins Reid"></div>
+                <div class="swiper-slide"><img src="minhas img/daisy.svg.svg" alt="Livro Daisy Jones & The Six da Taylor Jenkins Reid"></div>
+                <div class="swiper-slide"><img src="minhas img/malibu.svg.svg" alt="Livro Malibu Renasce da Taylor Jenkins Reid"></div>
+              </div>
+        
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+        
+            <div class="card">
+              <!-- 1º linha -->
+              <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                  <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                  <h3 class="descrição__titulo">Autora do Mês</h3>
+                  <h2 class="descrição__titulo-livro">Elayne Baeta</h2>
+                  <p class="descrição__texto">Lésbica e escritora.
+                  </p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="minhas img/elayne.png" class="descrição__imagem">
+              </div>
+        
+              <!-- 2º linha -->
+              <div class="card__botões">
+                <!-- 1º coluna -->
+                <ul class="botões">
+                  <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                  <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+              </div>
+            </div>
+        
+        
+        
+          </section>
+        
+          <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="tópicos__lista">
+              <li class="tópicos__item"><a href="#" class="tópicos__link">Romance</a></li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Lágrimas</a>
+              </li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Poema</a>
+              </li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Édra Norr</a>
+              </li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Íris Pêssego</a>
+              </li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Evelyn Hugo</a>
+              </li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Daisy Jones</a>
+              </li>
+              <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Drama</a>
+              </li>
+            </ul>
+          </section>
+        
+          <section class="contato">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">
+              Atualizações dos favoritos da Mandyta.
+            </p>
+            <input type="email" placeholder="                      Cadastre seu e-mail" class="contato__email" />
+          </section>
+        
+          <hr />
+        
+          <footer class="rodapé">
+            <h2 class="rodapé__titulo">Grupo Mandyta</h2>
+            <ul class="lista-rodapé">
+              <li class="lista-rodapé__titulo">Editoras</li>
+              <li class="lista-rodapé__item">
+                <img src="minhas img/companhia.svg.svg" alt="Logo da Companhia das Letras" />
+                <a href="#" class="lista-rodapé__link">Companhia das Letras</a>
+              </li>
+              <li class="lista-rodapé__item">
+                <img src="minhas img/darkside.svg.svg" alt="Logo da Darkside" />
+                <a href="#" class="lista-rodapé__link">Darkside</a>
+              </li>
+              <li class="lista-rodapé__item">
+                <img src="minhas img/globo.svg.svg" alt="Logo da Globo Livros" />
+                <a href="#" class="lista-rodapé__link">Globo Livros</a>
+              </li>
+              <li class="lista-rodapé__item">
+                <img src="minhas img/paralela.svg.svg" alt="Logo da Paralela" />
+                <a href="#" class="lista-rodapé__link">Paralela</a>
+              </li>
+            </ul>
+          </footer>
+        
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script>
+            const swiper = new Swiper(".swiper", {
+              spaceBetween: 10,
+              slidesPerView: 3,
+              pagination: {
+                el: ".swiper-pagination",
+                type: "bullets",
+              },
+            });
+          </script>
+    </body>
+</html>
